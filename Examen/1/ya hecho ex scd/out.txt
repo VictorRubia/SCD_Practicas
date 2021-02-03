@@ -1,0 +1,705 @@
+-------------------------------------------------------
+- Problema de los lectores y escritores con fumigacion. Monitor SU. --
+-------------------------------------------------------
+El escritor 5 comienza a escribir ( 165 milisegundos)
+El escritor 5 ha terminado de escribir
+El lector 1 comienza a leer ( 152 milisegundos)
+El escritor 0 comienza a escribir ( 69 milisegundos)
+El lector 3 comienza a leer ( 58 milisegundos)
+El lector 4 comienza a leer ( 126 milisegundos)
+El lector 2 comienza a leer ( 117 milisegundos)
+El lector 0 comienza a leer ( 197 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El escritor 6 comienza a escribir ( 191 milisegundos)
+El lector 2 ha terminado de leer
+El lector 4 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 4 comienza a escribir ( 148 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 1 comienza a leer ( 67 milisegundos)
+El lector 0 comienza a leer ( 82 milisegundos)
+El lector 3 comienza a leer ( 68 milisegundos)
+El lector 4 comienza a leer ( 193 milisegundos)
+El lector 2 comienza a leer ( 190 milisegundos)
+El escritor 2 comienza a escribir ( 91 milisegundos)
+El lector 1 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 3 comienza a escribir ( 138 milisegundos)
+El escritor 2 ha terminado de escribir
+El escritor 1 comienza a escribir ( 63 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 1 comienza a leer ( 122 milisegundos)
+El escritor 0 comienza a escribir ( 93 milisegundos)
+El lector 2 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El escritor 5 comienza a escribir ( 157 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 4 comienza a leer ( 131 milisegundos)
+El escritor 4 comienza a escribir ( 144 milisegundos)
+El lector 0 comienza a leer ( 28 milisegundos)
+El lector 3 comienza a leer ( 82 milisegundos)
+El lector 1 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El lector 2 comienza a leer ( 100 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 6 comienza a escribir ( 100 milisegundos)
+El lector 1 comienza a leer ( 62 milisegundos)
+El escritor 4 ha terminado de escribir
+El escritor 2 comienza a escribir ( 94 milisegundos)
+El lector 1 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El escritor 1 comienza a escribir ( 126 milisegundos)
+El escritor 3 comienza a escribir ( 92 milisegundos)
+El lector 4 comienza a leer ( 190 milisegundos)
+El lector 3 comienza a leer ( 36 milisegundos)
+El lector 0 comienza a leer ( 121 milisegundos)
+El escritor 2 ha terminado de escribir
+El escritor 4 comienza a escribir ( 34 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 0 comienza a escribir ( 170 milisegundos)
+El escritor 3 ha terminado de escribir
+El lector 3 comienza a leer ( 85 milisegundos)
+El escritor 5 comienza a escribir ( 160 milisegundos)
+El lector 2 comienza a leer ( 86 milisegundos)
+El lector 1 comienza a leer ( 24 milisegundos)
+El lector 1 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El escritor 6 comienza a escribir ( 145 milisegundos)
+El lector 3 ha terminado de leer
+El lector 2 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 3 comienza a escribir ( 73 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 0 comienza a leer ( 26 milisegundos)
+El escritor 2 comienza a escribir ( 138 milisegundos)
+El lector 0 ha terminado de leer
+El escritor 1 comienza a escribir ( 153 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 4 comienza a escribir ( 36 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 0 comienza a escribir ( 63 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 0 comienza a leer ( 198 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 4 comienza a leer ( 65 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 2 comienza a leer ( 39 milisegundos)
+El lector 1 comienza a leer ( 180 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 3 comienza a leer ( 158 milisegundos)
+El lector 4 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El escritor 4 comienza a escribir ( 157 milisegundos)
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 1 ha terminado de leer
+El escritor 5 comienza a escribir ( 95 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 3 comienza a leer ( 140 milisegundos)
+El escritor 3 comienza a escribir ( 75 milisegundos)
+El lector 4 comienza a leer ( 189 milisegundos)
+El lector 2 comienza a leer ( 62 milisegundos)
+El lector 0 comienza a leer ( 114 milisegundos)
+El escritor 5 ha terminado de escribir
+El lector 1 comienza a leer ( 169 milisegundos)
+El escritor 1 comienza a escribir ( 151 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El escritor 6 comienza a escribir ( 110 milisegundos)
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El lector 2 comienza a leer ( 98 milisegundos)
+El escritor 0 comienza a escribir ( 85 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 0 comienza a leer ( 121 milisegundos)
+El escritor 2 comienza a escribir ( 197 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El lector 1 comienza a leer ( 100 milisegundos)
+El escritor 5 comienza a escribir ( 162 milisegundos)
+El lector 4 comienza a leer ( 134 milisegundos)
+El lector 3 comienza a leer ( 115 milisegundos)
+El lector 2 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 comienza a escribir ( 142 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 2 comienza a leer ( 94 milisegundos)
+El escritor 3 comienza a escribir ( 31 milisegundos)
+El escritor 5 ha terminado de escribir
+El lector 3 comienza a leer ( 125 milisegundos)
+El escritor 0 comienza a escribir ( 35 milisegundos)
+El lector 0 comienza a leer ( 108 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 6 comienza a escribir ( 185 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 1 comienza a escribir ( 123 milisegundos)
+El lector 2 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El lector 2 comienza a leer ( 174 milisegundos)
+El escritor 3 comienza a escribir ( 95 milisegundos)
+El lector 1 comienza a leer ( 153 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 0 comienza a leer ( 84 milisegundos)
+El escritor 0 comienza a escribir ( 41 milisegundos)
+El lector 4 comienza a leer ( 102 milisegundos)
+El escritor 6 ha terminado de escribir
+El escritor 2 comienza a escribir ( 105 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 5 comienza a escribir ( 200 milisegundos)
+El escritor 3 ha terminado de escribir
+El lector 0 ha terminado de leer
+El lector 4 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 0 comienza a escribir ( 31 milisegundos)
+El escritor 2 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 3 LANZA FUMIGADORA
+El lector 3 comienza a leer ( 99 milisegundos)
+El escritor 3 comienza a escribir ( 134 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 4 comienza a leer ( 76 milisegundos)
+El escritor 4 comienza a escribir ( 110 milisegundos)
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 1 comienza a escribir ( 151 milisegundos)
+El escritor 5 ha terminado de escribir
+El lector 1 comienza a leer ( 188 milisegundos)
+El escritor 6 comienza a escribir ( 120 milisegundos)
+El lector 2 comienza a leer ( 198 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 4 ha terminado de escribir
+El lector 0 comienza a leer ( 190 milisegundos)
+El escritor 2 comienza a escribir ( 159 milisegundos)
+FUMIGANDO...
+El escritor 6 ha terminado de escribir
+Se ha terminado de fumigar
+El lector 4 comienza a leer ( 137 milisegundos)
+El lector 3 comienza a leer ( 115 milisegundos)
+El escritor 5 comienza a escribir ( 175 milisegundos)
+El escritor 1 ha terminado de escribir
+El escritor 3 comienza a escribir ( 191 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El escritor 0 comienza a escribir ( 26 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El escritor 6 comienza a escribir ( 199 milisegundos)
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 comienza a escribir ( 130 milisegundos)
+El escritor 5 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 2 LANZA FUMIGADORA
+El lector 2 comienza a leer ( 162 milisegundos)
+El escritor 1 comienza a escribir ( 189 milisegundos)
+FUMIGANDO...
+El escritor 3 ha terminado de escribir
+Se ha terminado de fumigar
+El lector 1 comienza a leer ( 137 milisegundos)
+El escritor 2 comienza a escribir ( 197 milisegundos)
+El lector 0 comienza a leer ( 72 milisegundos)
+El lector 3 comienza a leer ( 93 milisegundos)
+El escritor 4 ha terminado de escribir
+El escritor 6 ha terminado de escribir
+El escritor 0 comienza a escribir ( 77 milisegundos)
+El lector 0 ha terminado de leer
+El lector 2 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 4 comienza a leer ( 193 milisegundos)
+El escritor 5 comienza a escribir ( 186 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 4 comienza a escribir ( 179 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El lector 0 comienza a leer ( 186 milisegundos)
+El escritor 0 comienza a escribir ( 141 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 1 comienza a leer ( 139 milisegundos)
+El lector 3 comienza a leer ( 83 milisegundos)
+El escritor 6 comienza a escribir ( 126 milisegundos)
+El lector 2 comienza a leer ( 37 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 3 comienza a escribir ( 51 milisegundos)
+El lector 4 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El escritor 1 comienza a escribir ( 32 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 2 comienza a escribir ( 129 milisegundos)
+El escritor 1 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 0 LANZA FUMIGADORA
+El lector 3 ha terminado de leer
+El lector 0 ha terminado de leer
+FUMIGANDO...
+El escritor 6 ha terminado de escribir
+El lector 1 ha terminado de leer
+Se ha terminado de fumigar
+El escritor 0 comienza a escribir ( 108 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 2 comienza a leer ( 144 milisegundos)
+El escritor 3 comienza a escribir ( 137 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 1 comienza a leer ( 32 milisegundos)
+El escritor 5 comienza a escribir ( 154 milisegundos)
+El lector 4 comienza a leer ( 118 milisegundos)
+El lector 3 comienza a leer ( 63 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 0 comienza a leer ( 162 milisegundos)
+El escritor 6 comienza a escribir ( 101 milisegundos)
+El lector 2 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El escritor 4 comienza a escribir ( 98 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 1 comienza a escribir ( 82 milisegundos)
+El lector 0 ha terminado de leer
+El escritor 0 comienza a escribir ( 106 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 3 comienza a leer ( 57 milisegundos)
+El escritor 3 comienza a escribir ( 138 milisegundos)
+El lector 4 comienza a leer ( 67 milisegundos)
+El lector 2 comienza a leer ( 114 milisegundos)
+El lector 1 comienza a leer ( 101 milisegundos)
+El escritor 4 ha terminado de escribir
+El escritor 2 comienza a escribir ( 153 milisegundos)
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El escritor 6 comienza a escribir ( 134 milisegundos)
+El lector 1 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 1 comienza a escribir ( 135 milisegundos)
+El escritor 3 ha terminado de escribir
+El lector 3 comienza a leer ( 147 milisegundos)
+El escritor 5 comienza a escribir ( 93 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 0 comienza a leer ( 160 milisegundos)
+El escritor 0 comienza a escribir ( 171 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 1 comienza a leer ( 162 milisegundos)
+El escritor 3 comienza a escribir ( 140 milisegundos)
+El lector 4 comienza a leer ( 134 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 4 comienza a escribir ( 110 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 2 comienza a leer ( 90 milisegundos)
+El lector 3 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El escritor 2 comienza a escribir ( 110 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El lector 4 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El escritor 6 comienza a escribir ( 117 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 5 comienza a escribir ( 43 milisegundos)
+El escritor 5 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 0 LANZA FUMIGADORA
+El lector 0 comienza a leer ( 79 milisegundos)
+El escritor 2 ha terminado de escribir
+El escritor 1 comienza a escribir ( 92 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 3 comienza a leer ( 34 milisegundos)
+El escritor 4 comienza a escribir ( 118 milisegundos)
+El lector 0 ha terminado de leer
+FUMIGANDO...
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El escritor 4 ha terminado de escribir
+Se ha terminado de fumigar
+El escritor 0 comienza a escribir ( 29 milisegundos)
+El lector 2 comienza a leer ( 162 milisegundos)
+El escritor 2 comienza a escribir ( 94 milisegundos)
+El lector 4 comienza a leer ( 153 milisegundos)
+El lector 1 comienza a leer ( 165 milisegundos)
+El escritor 3 comienza a escribir ( 103 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 0 comienza a leer ( 89 milisegundos)
+El escritor 5 comienza a escribir ( 192 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 3 comienza a leer ( 167 milisegundos)
+El escritor 6 comienza a escribir ( 44 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 1 comienza a escribir ( 188 milisegundos)
+El lector 0 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El escritor 4 comienza a escribir ( 157 milisegundos)
+El lector 4 ha terminado de leer
+El lector 2 ha terminado de leer
+El lector 1 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El lector 1 comienza a leer ( 108 milisegundos)
+El escritor 0 comienza a escribir ( 72 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 0 comienza a leer ( 45 milisegundos)
+El escritor 3 comienza a escribir ( 38 milisegundos)
+El lector 2 comienza a leer ( 133 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 5 comienza a escribir ( 109 milisegundos)
+El escritor 4 ha terminado de escribir
+El escritor 2 comienza a escribir ( 27 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 4 comienza a leer ( 29 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El escritor 6 comienza a escribir ( 189 milisegundos)
+El lector 0 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El lector 4 comienza a leer ( 176 milisegundos)
+El escritor 3 comienza a escribir ( 103 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 1 comienza a leer ( 28 milisegundos)
+El escritor 2 comienza a escribir ( 169 milisegundos)
+El lector 3 comienza a leer ( 138 milisegundos)
+El lector 0 comienza a leer ( 92 milisegundos)
+El escritor 6 ha terminado de escribir
+El escritor 1 comienza a escribir ( 132 milisegundos)
+El lector 1 ha terminado de leer
+El lector 4 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 0 comienza a escribir ( 108 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 1 comienza a leer ( 55 milisegundos)
+El escritor 4 comienza a escribir ( 192 milisegundos)
+El lector 2 comienza a leer ( 154 milisegundos)
+El escritor 2 ha terminado de escribir
+El escritor 5 comienza a escribir ( 33 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El lector 4 comienza a leer ( 97 milisegundos)
+El escritor 6 comienza a escribir ( 40 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 0 comienza a leer ( 164 milisegundos)
+El escritor 3 comienza a escribir ( 93 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 2 comienza a escribir ( 114 milisegundos)
+El lector 2 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 2 comienza a leer ( 34 milisegundos)
+El lector 4 comienza a leer ( 149 milisegundos)
+El escritor 1 comienza a escribir ( 153 milisegundos)
+El lector 1 comienza a leer ( 92 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 3 comienza a leer ( 125 milisegundos)
+El escritor 5 comienza a escribir ( 21 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 2 ha terminado de escribir
+El lector 2 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 0 comienza a leer ( 121 milisegundos)
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 1 comienza a leer ( 168 milisegundos)
+El escritor 4 comienza a escribir ( 72 milisegundos)
+El lector 0 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El lector 2 comienza a leer ( 73 milisegundos)
+El escritor 2 comienza a escribir ( 151 milisegundos)
+El lector 3 comienza a leer ( 99 milisegundos)
+El lector 2 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 6 comienza a escribir ( 53 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 2 comienza a leer ( 144 milisegundos)
+El escritor 0 comienza a escribir ( 161 milisegundos)
+El lector 4 comienza a leer ( 67 milisegundos)
+El lector 0 comienza a leer ( 119 milisegundos)
+El lector 1 comienza a leer ( 55 milisegundos)
+El escritor 6 ha terminado de escribir
+El escritor 3 comienza a escribir ( 197 milisegundos)
+El lector 1 ha terminado de leer
+El lector 4 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 5 comienza a escribir ( 78 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 1 comienza a leer ( 153 milisegundos)
+El escritor 1 comienza a escribir ( 133 milisegundos)
+El lector 3 comienza a leer ( 92 milisegundos)
+El escritor 3 ha terminado de escribir
+El lector 2 comienza a leer ( 76 milisegundos)
+El escritor 4 comienza a escribir ( 118 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 6 comienza a escribir ( 49 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El lector 0 comienza a leer ( 43 milisegundos)
+El escritor 2 comienza a escribir ( 124 milisegundos)
+El lector 4 comienza a leer ( 114 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 3 comienza a leer ( 188 milisegundos)
+El escritor 0 comienza a escribir ( 77 milisegundos)
+El lector 1 ha terminado de leer
+El lector 0 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 5 comienza a escribir ( 34 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 3 comienza a escribir ( 45 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 6 comienza a escribir ( 140 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El escritor 2 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 1 LANZA FUMIGADORA
+El escritor 4 comienza a escribir ( 115 milisegundos)
+FUMIGANDO...
+Se ha terminado de fumigar
+El lector 1 comienza a leer ( 90 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 6 ha terminado de escribir
+El escritor 2 comienza a escribir ( 86 milisegundos)
+El escritor 5 comienza a escribir ( 110 milisegundos)
+El lector 0 comienza a leer ( 49 milisegundos)
+El lector 2 comienza a leer ( 76 milisegundos)
+El lector 4 comienza a leer ( 90 milisegundos)
+El lector 1 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El escritor 3 comienza a escribir ( 129 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 1 comienza a escribir ( 147 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 0 comienza a escribir ( 76 milisegundos)
+El escritor 0 ha terminado de escribir
+Se ha terminado de fumigar
+ESCRITOR 3 LANZA FUMIGADORA
+El lector 1 comienza a leer ( 179 milisegundos)
+El escritor 4 comienza a escribir ( 143 milisegundos)
+El lector 3 comienza a leer ( 182 milisegundos)
+El lector 4 comienza a leer ( 173 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 6 comienza a escribir ( 96 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 0 comienza a leer ( 123 milisegundos)
+El escritor 2 comienza a escribir ( 130 milisegundos)
+FUMIGANDO...
+El escritor 6 ha terminado de escribir
+El escritor 4 ha terminado de escribir
+Se ha terminado de fumigar
+El lector 2 comienza a leer ( 195 milisegundos)
+El escritor 5 comienza a escribir ( 195 milisegundos)
+El lector 4 ha terminado de leer
+El lector 0 ha terminado de leer
+El lector 1 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El escritor 1 comienza a escribir ( 35 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El escritor 3 comienza a escribir ( 185 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El escritor 0 comienza a escribir ( 113 milisegundos)
+Se ha terminado de fumigar
+ESCRITOR 4 LANZA FUMIGADORA
+El lector 4 comienza a leer ( 194 milisegundos)
+El lector 3 comienza a leer ( 132 milisegundos)
+El lector 0 comienza a leer ( 36 milisegundos)
+El lector 1 comienza a leer ( 84 milisegundos)
+El escritor 6 comienza a escribir ( 56 milisegundos)
+FUMIGANDO...
+El escritor 3 ha terminado de escribir
+El lector 0 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El lector 1 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+Se ha terminado de fumigar
+El escritor 2 comienza a escribir ( 154 milisegundos)
+El escritor 4 comienza a escribir ( 185 milisegundos)
+El escritor 1 comienza a escribir ( 157 milisegundos)
+El escritor 5 comienza a escribir ( 42 milisegundos)
+El escritor 5 ha terminado de escribir
+ESCRITOR 1 LANZA FUMIGADORA
+El lector 2 comienza a leer ( 165 milisegundos)
+El escritor 6 comienza a escribir ( 83 milisegundos)
+FUMIGANDO...
+El escritor 6 ha terminado de escribir
+El escritor 2 ha terminado de escribir
+El escritor 1 ha terminado de escribir
+Se ha terminado de fumigar
+El lector 1 comienza a leer ( 132 milisegundos)
+El escritor 0 comienza a escribir ( 61 milisegundos)
+El lector 4 comienza a leer ( 75 milisegundos)
+El escritor 5 comienza a escribir ( 31 milisegundos)
+El lector 3 comienza a leer ( 73 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 0 comienza a leer ( 198 milisegundos)
+El escritor 3 comienza a escribir ( 150 milisegundos)
+El escritor 5 ha terminado de escribir
+El lector 2 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El lector 2 comienza a leer ( 38 milisegundos)
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El lector 2 ha terminado de leer
+El lector 1 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 4 comienza a leer ( 134 milisegundos)
+El escritor 6 comienza a escribir ( 150 milisegundos)
+El lector 0 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 comienza a escribir ( 21 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 1 comienza a leer ( 191 milisegundos)
+El escritor 2 comienza a escribir ( 174 milisegundos)
+El lector 2 comienza a leer ( 38 milisegundos)
+El lector 3 comienza a leer ( 83 milisegundos)
+El escritor 4 ha terminado de escribir
+El lector 0 comienza a leer ( 161 milisegundos)
+El escritor 5 comienza a escribir ( 56 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El escritor 1 comienza a escribir ( 28 milisegundos)
+El lector 3 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 2 comienza a leer ( 122 milisegundos)
+El escritor 3 comienza a escribir ( 127 milisegundos)
+El lector 4 comienza a leer ( 138 milisegundos)
+El lector 0 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El escritor 0 comienza a escribir ( 135 milisegundos)
+El lector 1 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 3 comienza a leer ( 184 milisegundos)
+El escritor 4 comienza a escribir ( 109 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 0 ha terminado de escribir
+El lector 0 comienza a leer ( 60 milisegundos)
+El escritor 6 comienza a escribir ( 22 milisegundos)
+El escritor 4 ha terminado de escribir
+El escritor 1 comienza a escribir ( 139 milisegundos)
+El escritor 6 ha terminado de escribir
+El escritor 5 comienza a escribir ( 134 milisegundos)
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El escritor 2 comienza a escribir ( 171 milisegundos)
+El escritor 1 ha terminado de escribir
+El escritor 5 ha terminado de escribir
+El lector 1 comienza a leer ( 22 milisegundos)
+El escritor 3 comienza a escribir ( 116 milisegundos)
+El lector 4 comienza a leer ( 32 milisegundos)
+El lector 2 comienza a leer ( 143 milisegundos)
+El escritor 4 comienza a escribir ( 53 milisegundos)
+El lector 1 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 0 comienza a escribir ( 137 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 0 comienza a leer ( 168 milisegundos)
+El escritor 6 comienza a escribir ( 92 milisegundos)
+El lector 1 comienza a leer ( 90 milisegundos)
+El escritor 3 ha terminado de escribir
+El escritor 1 comienza a escribir ( 27 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 1 ha terminado de escribir
+El lector 4 comienza a leer ( 177 milisegundos)
+El escritor 4 comienza a escribir ( 76 milisegundos)
+El lector 3 comienza a leer ( 155 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 5 comienza a escribir ( 167 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 6 ha terminado de escribir
+El escritor 4 ha terminado de escribir
+El lector 1 comienza a leer ( 96 milisegundos)
+El lector 0 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 5 ha terminado de escribir
+El lector 2 comienza a leer ( 20 milisegundos)
+El escritor 2 comienza a escribir ( 176 milisegundos)
+El lector 1 ha terminado de leer
+El lector 2 ha terminado de leer
+El escritor 0 comienza a escribir ( 174 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 1 comienza a leer ( 51 milisegundos)
+El escritor 3 comienza a escribir ( 154 milisegundos)
+El lector 4 comienza a leer ( 145 milisegundos)
+El lector 0 comienza a leer ( 41 milisegundos)
+El lector 2 comienza a leer ( 116 milisegundos)
+El lector 3 comienza a leer ( 109 milisegundos)
+El escritor 0 ha terminado de escribir
+El escritor 1 comienza a escribir ( 156 milisegundos)
+El lector 0 ha terminado de leer
+El lector 1 ha terminado de leer
+El lector 3 ha terminado de leer
+El lector 2 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 comienza a escribir ( 73 milisegundos)
+El escritor 3 ha terminado de escribir
+El lector 1 comienza a leer ( 88 milisegundos)
+El escritor 6 comienza a escribir ( 133 milisegundos)
+El escritor 1 ha terminado de escribir
+El lector 4 comienza a leer ( 36 milisegundos)
+El escritor 5 comienza a escribir ( 62 milisegundos)
+El lector 4 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El lector 0 comienza a leer ( 83 milisegundos)
+El escritor 0 comienza a escribir ( 111 milisegundos)
+El lector 3 comienza a leer ( 118 milisegundos)
+El escritor 5 ha terminado de escribir
+El escritor 2 comienza a escribir ( 39 milisegundos)
+El lector 1 ha terminado de leer
+El escritor 2 ha terminado de escribir
+El lector 2 comienza a leer ( 170 milisegundos)
+El escritor 1 comienza a escribir ( 153 milisegundos)
+El escritor 6 ha terminado de escribir
+El lector 4 comienza a leer ( 33 milisegundos)
+El escritor 4 comienza a escribir ( 40 milisegundos)
+El lector 0 ha terminado de leer
+El lector 4 ha terminado de leer
+El escritor 4 ha terminado de escribir
+El escritor 2 comienza a escribir ( 60 milisegundos)
+El escritor 0 ha terminado de escribir
+El lector 3 ha terminado de leer
+El lector 0 comienza a leer ( 184 milisegundos)
+El escritor 2 ha terminado de escribir
+El lector 1 comienza a leer ( 156 milisegundos)
+El escritor 3 comienza a escribir ( 101 milisegundos)
+El escritor 1 ha terminado de escribir
+El escritor 2 comienza a escribir ( 119 milisegundos)
+El lector 2 ha terminado de leer
+El escritor 3 ha terminado de escribir
+El lector 3 comienza a leer ( 68 milisegundos)
+El lector 4 comienza a leer ( 43 milisegundos)
+El escritor 4 comienza a escribir ( 66 milisegundos)
+El lector 0 ha terminado de leer

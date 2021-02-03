@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../P2"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}

@@ -1,0 +1,198 @@
+#include <iostream>
+#include <iomanip>
+#include <cassert>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include <chrono> // duraciones (duration), unidades de tiempo
+#include <random> // dispositivos, generadores y distribuciones aleatorias
+#include "HoareMonitor.h"
+
+using namespace std;
+using namespace HM;
+
+const int num_lectores = 3;
+const int num_escritores = 3;
+
+mutex mtx; 
+
+//**********************************************************************
+// plantilla de función para generar un entero aleatorio uniformemente
+// distribuido entre dos valores enteros, ambos incluidos
+// (ambos tienen que ser dos constantes, conocidas en tiempo de compilación)
+//----------------------------------------------------------------------
+
+template< int min, int max > int aleatorio()
+{
+  static default_random_engine generador( (random_device())() );
+  static uniform_int_distribution<int> distribucion_uniforme( min, max ) ;
+  return distribucion_uniforme( generador );
+}
+
+void escribir(int escritor){
+    chrono::milliseconds dur_escritura(aleatorio<20,200>());
+
+    //  Se empieza a escribir
+    mtx.lock();
+    cout << "El escritor " << escritor << " comienza a escribir ( " << dur_escritura.count() << " milisegundos)" << endl;
+    mtx.unlock();
+
+    //  Espera bloqueada de dur_escritura milisegundos
+    this_thread::sleep_for(dur_escritura);
+
+    //  Informa que ha terminado de escribir
+    mtx.lock();
+    cout << "El escritor " << escritor << " ha terminado de escribir" << endl; 
+    mtx.unlock();    
+}
+
+void Espera(){
+    chrono::milliseconds tiempo(aleatorio<20,200>());
+    this_thread::sleep_for(tiempo);
+}
+
+void leer(int lector){
+    chrono::milliseconds dur_lectura(aleatorio<20,200>());
+
+    //  Se empieza a leer
+    mtx.lock();
+    cout << "El lector " << lector << " comienza a leer ( " << dur_lectura.count() << " milisegundos)" << endl;
+    mtx.unlock();
+
+    //  Espera bloqueada de dur_lectura milisegundos
+    this_thread::sleep_for(dur_lectura);
+
+    mtx.lock();
+    //  Informa que ha terminado de leer
+    cout << "El lector " << lector << " ha terminado de leer" << endl; 
+    mtx.unlock();
+
+}
+
+class LectoresEscritores: public HoareMonitor{
+    private:
+        int num_lec, num_esc;
+        bool escribiendo, escritores_esperando, lectores_esperando;
+
+        CondVar lectura, escritura;
+
+    public:
+        LectoresEscritores(){
+            num_lec = 0;
+            num_esc = 0;
+            escribiendo = false;
+            escritores_esperando = false;
+            lectores_esperando = false;
+            lectura = newCondVar();
+            escritura = newCondVar();
+        }
+        void iniLec(){
+            // if(escribiendo)
+            //     lectura.wait();
+            // num_lec++;
+            // lectura.signal();
+
+            if(escribiendo){    //  Si hay un escritor dentro
+                if(num_lec > num_esc){  //  Si se han hecho más lecturas que escrituras
+                    if(!(!lectura.empty() && escritura.empty())){   //  Si no ocurre que la cola de lecturas está vacía y la otra no
+                        lectura.wait();
+                    }
+                }
+                else if(num_lec == num_esc){    // Si se han hecho mismo numero de lecturas q de escrituras
+                    if(!escritores_esperando){   //  Si el escritor no esta esperando al lector
+                        int espero = aleatorio<1,2>();
+                        if(espero == 1){
+                            lectura.wait();
+                            lectores_esperando = true;
+                        }
+                    }
+                }
+            }
+            
+            num_lec++;
+            lectura.signal();
+
+        }
+        void finLec(){
+            num_lec--;
+            if(lectores_esperando){
+                lectores_esperando = false;
+            }
+            if(num_lec == 0)
+                escritura.signal();
+        }
+        void iniEsc(){
+            if(escribiendo || num_lec > 0) {
+                if(num_esc > num_lec){
+                    if(!(!escritura.empty() && lectura.empty()))
+                        escritura.wait();
+                }
+                else if (num_lec == num_esc){
+                    if(!lectores_esperando){
+                        int espero = aleatorio<0,1>();
+
+                        if(espero == 1){
+                            escritura.wait();
+                            escritores_esperando = true;
+                        }
+                    }
+                }
+            }
+            escribiendo = true;
+        }
+        void finEsc(){
+            escribiendo = false;
+
+            if(escritores_esperando)  
+                escritores_esperando=false;
+
+            if(!lectura.empty())
+                lectura.signal();
+            else            
+                escritura.signal();
+            
+                     
+        }
+};
+
+void funcion_hebra_lector(MRef<LectoresEscritores> monitor, int numLectores){
+    while(true){
+        Espera();
+        monitor->iniLec();
+        leer(numLectores);
+        monitor->finLec();
+    }
+}
+
+void funcion_hebra_escritor(MRef<LectoresEscritores> monitor, int numEscritores){
+    while(true){
+        Espera();
+        monitor->iniEsc();
+        escribir(numEscritores);
+        monitor->finEsc();
+    }
+}
+
+
+int main(){
+    cout << "-------------------------------------------------------" << endl <<
+            "- Problema de los lectores y escritores. Monitor SU. --" << endl <<
+            "-------------------------------------------------------" << endl << flush;
+    MRef<LectoresEscritores> monitor = Create<LectoresEscritores>();
+
+    thread hebras_lectoras[num_lectores], hebras_escritoras[num_escritores];
+
+    for(int i = 0; i < num_lectores; i++)
+        hebras_lectoras[i] = thread(funcion_hebra_lector, monitor, i);
+
+    for(int i = 0; i < num_escritores; i++)
+        hebras_escritoras[i] = thread(funcion_hebra_escritor, monitor, i);
+    
+    for(int i = 0; i < num_lectores; i++)
+        hebras_lectoras[i].join();
+
+    for(int i = 0; i < num_escritores; i++)
+        hebras_escritoras[i].join();
+
+    
+ }
